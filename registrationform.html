@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <title>Registration Form</title>
+</head>
+
+<body>
+
+    <form action="" method="POST" enctype="multipart/form-data">
+        <div id="border">
+            <h1>Cadastro</h1>
+            <div class="display">
+                <label>
+                    <div class="display-name">
+                        Nome
+                    </div>
+                    
+                    <input
+                        type="text" name="nome"
+                        placeholder="Digite seu nome"
+                        class="input-color">
+                </label>
+            </div>
+            <div class="display">
+                <label>
+                    <div class="display-name">
+                        Email
+                    </div>
+                    <input
+                        type="email" name="email"
+                        placeholder="Digite seu email"
+                        class="input-color">
+                </label>
+            </div>
+
+            <div class="display">
+                <label>
+                    <div class="display-name">
+                        Idade
+                    </div>      
+                    <input
+                        type="number" name="idade"
+                        min="12"
+                        style="width: 50px;"
+                        class="input-color">
+                </label>
+            </div>
+            <div class="display">
+                <label>
+                    <div class="display-name">
+                        Data de Nascimento
+                    </div>
+                    <input
+                        type="date" name="data"
+                        class="input-color">
+                </label>
+            </div>
+            <div class="display">
+                <label>
+                    <div class="display-name">
+                        Onde você possui conta:
+                    </div>
+                    <div class="input-color-option">
+                        <input
+                        type="checkbox" name="conta"> Instagram
+                    
+                         <input
+                        type="checkbox" name="conta"> FaceBook
+                    
+                        <input
+                        type="checkbox" name="conta"> YouTube 
+                    </div>
+                         
+                </label>
+            </div>
+
+            <div class="display">
+                <label>
+                    <div class="display-name">
+                        Sexo
+                    </div>
+                    <div class="input-color-option-2">
+                        <input 
+                        type="radio" name="sexo"> Masculino
+                    <input
+                        type="radio" name="sexo"> Feminino 
+                    </div>  
+                </label>
+            </div>
+
+            <div class="display">
+                <label id="cor">
+                    Cor dos Olhos
+                    <input
+                        type="color" name="cor"
+                        value="black"
+                        style="width: 70px;"
+                        class="input-color">
+                </label>
+            </div>
+
+            <div class="display">
+                <Label>
+                    <div class="display-name">
+                        Biografia
+                    </div>
+                    <textarea
+                    style="width: 300px; height: 100px;"
+                    placeholder="Escreva sua Biografia"
+                    class="input-color"></textarea>
+                </Label>
+            </div>
+
+            <div class="display">
+                <label>
+                    <div class="display-name">
+                        Foto do Perfil
+                    </div>
+                    <input
+                        type="file" name="foto" accept="image/*" 
+                        class="input-color">
+                </label>
+            </div>
+
+            <div class="display">
+                <label>
+                    <div class="display-name">
+                        Telefone
+                    </div>
+                    <input
+                        type="number" name="telefone"
+                        placeholder="Digite seu número"
+                        class="input-color">
+                </label>
+            </div>
+
+            <div class="display">
+                <label>
+                    <div class="display-name">
+                        Link do perfil do Facebook
+                    </div>
+                    <input
+                        type="url" name="link"
+                        placeholder="Digite aqui seu perfil"
+                        class="input-color-option-3">
+                </label>
+            </div>
+
+            <div class="display">
+                <label>
+                    <div class="display-name">
+                        Senha
+                    </div>
+                    <input
+                        type="password" name="senha"
+                        placeholder="Digite sua senha"
+                        min="6" max="8"
+                        class="input-color">
+                </label>
+            </div>
+
+            <button type="reset" id="reset">Limpar</button>
+            <button type="submit" id="submit">Enviar Dados</button>
+        </div>
+    </form>
+    
+</body>
+</html>
