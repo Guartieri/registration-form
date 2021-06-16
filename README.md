@@ -36,7 +36,7 @@ We thank the following people who contributed to this project:
   <tr>
     <td align="center">
       <a href="https://github.com/Guartieri" target="_blank">
-        <img src="./assets/photo-vinicius.jpg" width="100px;" alt="Foto do Vinícius no GitHub"/><br>
+        <img src="./assets/photo-perfil.jpg" width="100px;" alt="Foto do Vinícius no GitHub"/><br>
         <sub>
           <b>Vinícius Guartieri</b>
         </sub>
